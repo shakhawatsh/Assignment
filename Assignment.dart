@@ -6,7 +6,7 @@ class Media{
 
 }
 
-class Song implements Media{
+class Song extends Media{
 
   String artist='Metallica';
 
