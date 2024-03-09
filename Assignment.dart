@@ -17,9 +17,9 @@ class Song implements Media{
 }
 
 void main(){
-  var MediaPlay=Media();
-  print(MediaPlay.play());
-  var SongPlay= Song();
-  print(SongPlay.play());
+  var PlayingMedia=Media();
+  print(PlayingMedia.play());
+  var PlayingSong= Song();
+  print(PlayingSong.play());
 
 }
