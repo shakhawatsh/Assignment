@@ -1,8 +1,8 @@
 class Media{
-    play()
-    {
-    print('Playing media...');
-    }
+    void play()
+      {
+      print('Playing media...');
+      }
 
 }
 
@@ -11,10 +11,10 @@ class Song extends Media{
   String artist='Metallica';
 
   @override
-  play()
-  {
+  void play()
+    {
     print('Playing song by $artist');
-  }
+    }
 
 }
 
