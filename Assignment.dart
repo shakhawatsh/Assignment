@@ -19,8 +19,8 @@ class Song extends Media{
 }
 
 void main(){
-  var PlayingMedia=Media();
-  var PlayingSong= Song();
+  Media PlayingMedia= Media();
+  Song PlayingSong= Song();
   PlayingMedia.play();
   PlayingSong.play();
 
